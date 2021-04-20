@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css.css">
+    <title>Modal</title>
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <a href="#demo-modal">Sign Up</a>
+    </div>
+    
+    <div id="demo-modal" class="modal">
+        <div class="modal__content">
+    
+            
+
+            <div id="#app">
+
+                <div class="header">
+                    <div class="logo"><img src="./logoTwitch.png"></div>
+                    <div class="tittle"><a>Bem vindo a Twitch</a></div>
+                </div>
+
+                <form>
+
+                    <div class="input"><div class="label"><label>Nome</label></div><input id="name" type="text"></div>
+                    <div class="input"><div class="label"><label>Senha</label></div></div><input id="password" type="password"></div>
+                    <div class="input"><div class="label"><label>Confirmar Senha</label></div><input id="confirmaPassword" type="password"></div>
+
+                    <div class="input datas">
+                        <div class="label">
+                        <label>Data de Nascimento</label>
+                        </div>
+                        <select class="select">
+                            <option value disabled>Mês</option>
+                            <option value="1">Janeiro</option>
+                            <option value="2">Feveirero</option>
+                            <option value="3">Março</option>
+                            <option value="4">Abril</option>
+                            <option value="5">Maio</option>
+                            <option value="6">Junho</option>
+                            <option value="7">Julho</option>
+                            <option value="8">Agosto</option>
+                            <option value="9">Setembro</option>
+                            <option value="10">Outubro</option>
+                            <option value="11">Novembro</option>
+                            <option value="12">Dezembro</option>
+                        </select>
+                        <input type="text" id="dia" class="data dia" placeholder="Dia">
+                        <input type="text" id="ano" class="data ano" placeholder="Ano">
+                    </div>
+
+                    <div class="input"><div class="label"><label>Email</label></div><input id="email" type="email"></div>
+
+                    <div class="input"><p class="term">Ao clicar em inscrever-se, você indica que leu e aceita os <span>Termos de Serviço</span> e os <span>Termos de privacidade</span>.</p></div>
+                    
+                    <div class="button"><button type="submit">Sign Up</button></div>
+                </form>
+                <a href="#" class="modal__close">&times;</a>
+            </div>
+
+
+    
+        </div>
+    </div>
+
+    
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./"></script>
+</body>
+</html>
